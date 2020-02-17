@@ -1,0 +1,116 @@
+{
+	"itemsinpage" : 20,
+	"path" : "amounts",
+	"form" : {
+		"0" : { "type" : "input", "name" : "name", "input_type" : "text", "class" : "form-control", "placeholder" : "Name" },
+		"1" : { "type" : "input", "name" : "date", "class" : "form-control", "id" : "amountDate", "input_type" : "text", "placeholder" : "Date" },
+		"2" : { "type" : "textarea", "name" : "description", "class" : "form-control", "rows" : 3 },
+		"3" : { "type" : "input", "name" : "income", "input_type" : "text", "class" : "form-control", "placeholder" : "Income" },
+		"4" : { "type" : "input", "name" : "expense", "input_type" : "text", "class" : "form-control", "placeholder" : "Income" },
+		"5" : { "type" : "button", "name" : "add", "input_type" : "submit", "class" : "btn btn-primary", "intext" : "Add to history" },
+		"method" : "POST"
+	}
+}
+{
+	"itemsinpage" : 20,
+	"path" : "amounts",
+	"form" : {
+		"attr":{"action" : "?option=Amounts&action=add","method" : "POST"},
+		"0" : { 
+			"div" : {
+				"attr" : {"class" : "container"},
+		 		"0" : { 
+		 			"div" : {
+		 				"attr" : {"class" : "row"},
+		 				"0" : { 
+		 					"div" : {
+		 						"attr" : {"class" : "col-md-6"},
+		 						"0" : { "input" : {"attr" : { "name" : "name", "input_type" : "text", "class" : "form-control", "placeholder" : "Name" }}}
+		 					}
+		 				}
+		 			}
+		 		}
+			}
+		},
+		"1" : { 
+			"div" : {
+				"attr" : {"class" : "container"},
+		 		"0" : { 
+		 			"div" : {
+		 				"attr" : {"class" : "row"},
+		 				"0" : { 
+		 					"div" : {
+		 						"attr" : {"class" : "col-md-6"},
+		 						"0" : {"input" : {"attr" : { "name" : "date", "class" : "form-control", "id" : "amountDate", "input_type" : "text", "placeholder" : "Date" }}}
+		 					}
+		 				}
+		 			}
+		 		}
+			}
+		},
+		"2" : { 
+			"div" : {
+				"attr" : {"class" : "container"},
+		 		"0" : { 
+		 			"div" : {
+		 				"attr" : {"class" : "row"},
+		 				"0" : { 
+		 					"div" : {
+		 						"attr" : {"class" : "col-md-6"},
+		 						"0" : { "textarea" : {"attr" : { "name" : "description", "class" : "form-control", "rows" : 3 }}}
+		 					}
+		 				}
+		 			}
+		 		}
+			}
+		},
+		"3" : { 
+			"div" : {
+				"attr" : {"class" : "container"},
+		 		"0" : { 
+		 			"div" : {
+		 				"attr" : {"class" : "row"},
+		 				"0" : { 
+		 					"div" : {
+		 						"attr" : {"class" : "col-md-6"},
+		 						"0" : { "input" : {"attr" : { "name" : "income", "input_type" : "text", "class" : "form-control", "placeholder" : "Income" }}}
+		 					}
+		 				}
+		 			}
+		 		}
+			}
+		},
+		"4" : { 
+			"div" : {
+				"attr" : {"class" : "container"},
+		 		"0" : { 
+		 			"div" : {
+		 				"attr" : {"class" : "row"},
+		 				"0" : { 
+		 					"div" : {
+		 						"attr" : {"class" : "col-md-6"},
+		 						"0" : { "input" : {"attr" : { "name" : "expense", "input_type" : "text", "class" : "form-control", "placeholder" : "Expense" }}}
+		 					}
+		 				}
+		 			}
+		 		}
+			}
+		},
+		"5" : { 
+			"div" : {
+				"attr" : {"class" : "container"},
+		 		"0" : { 
+		 			"div" : {
+		 				"attr" : {"class" : "row"},
+		 				"0" : { 
+		 					"div" : {
+		 						"attr" : {"class" : "col-md-6"},
+		 						"0" : { "button" : {"attr" : { "name" : "add", "input_type" : "submit", "class" : "btn btn-primary", "value" : "Add to history" },"0": "Add to history"}}
+		 					}
+		 				}
+		 			}
+		 		}
+			}
+		}
+	}
+}

@@ -1,0 +1,120 @@
+body {
+	background-color: rgb(200,200,200);
+	background: -moz-radial-gradient(center, circle cover, #000, #fff);
+	background: -webkit-radial-gradient(center, circle closest-corner, #000, #fff);
+	background: radial-gradient(at center,#09D,#fff) fixed;
+	height: 100%;
+	overflow-y: scroll;
+}
+a:hover,a:active {
+	text-decoration: none;
+}
+.oneform {
+	width: 20%;
+	/*height: 20%;*/
+	position: relative;
+	top: 40%;
+	left:40%;
+	background: -moz-radial-gradient(center, circle cover, #fff, #000);
+	background: -webkit-radial-gradient(center, circle cover, #fff, #000);
+	border-radius: 5px;
+	padding: 20px;
+}
+#error {
+	position: relative;
+	top: 38%;
+	left: 40%;
+    width: 20%;
+	border-radius: 10px;
+	border-color: red;
+	border-width: 1px;
+	background: rgba(230,0,0,0.7);
+}
+/* Set item position on screen center left and top */
+.scenter {
+	position: absolute;
+	left: 25%;
+	top: 40%;
+}
+
+/* Transition */
+.home, .home > div > a, .home > div > a > i, .home  div > a > span, .menu a > i, .menu a {
+	transition: all 0.4s ease-out;
+}
+/* Transition */
+
+.home {
+	width: 50%;
+}
+
+.home > div > a  {
+	width: 20%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	margin: 0 2.5% 0 2.5%; 
+	transition: all 0.3s ease-out;
+}
+.home > div > a > i {
+	font-size: 10em;
+	color: #FFF;
+}
+.home > div > a:hover > i {
+	color: black;
+}
+.menu {
+	left: 25%;
+	top: 5%;
+}
+.menu a > i {
+	float: left;
+	font-size: 2em !important;
+}
+.menu a {
+	height: auto !important;
+}
+/* content styles */
+#content {
+	width: 80%;
+	min-width: 80%;
+    margin: 5% auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    /*
+    max-height: 100%;
+    transition: all 1s;
+    -webkit-transform: max-height;
+    -webkit-transition-duration: 0.5s;
+    -webkit-animation-timing-function: linear;*/
+}
+.bord {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+#content.loading {
+    -webkit-transform: max-height;
+    -webkit-transition-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+}
+/* End content styles */
+#amounts.table {
+	width: 100%;
+}
+.green {
+	color: green;
+}
+.red {
+	color: red;
+}
+#pagination {
+	//width: 30.3%;
+	margin: 5px auto;
+	text-align: center;
+}
+#pagination p {
+	float: left;
+	margin: 0 20px;
+}
+input,textarea {
+	margin: 10px;
+}
