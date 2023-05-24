@@ -1,3 +1,3 @@
 # Web-Accountant
 
-Tried to create a web app for self accounting.
+An App for self accounting created in early 2015 for educational purposes.
